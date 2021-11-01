@@ -9,3 +9,21 @@
 # Licensing     : Anup Jacob, LYIT
 # ----------------------------------
 
+class STUDENT:
+ name: str = "Anup Jacob"
+ roll_no = 'L0013455'
+
+def details(roll_no,name)
+ 
+
+class MODULE:
+ module1: str = "DevOps Server Admin"
+ module2: str = "DevOps Software Engineering"
+
+class ROOM:
+ class_no: int = 4209
+
+
+def display_person_details(self):
+ print("Name: ".format(self._name))
+
