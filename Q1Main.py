@@ -14,21 +14,27 @@ from ROOM import ROOM
 from MODULE import MODULE
 
 if __name__ == '__main__':
-    print('\nCalling STUDENT class')
+    #print('\nCalling STUDENT class')
     StudName = STUDENT('Anup Jacob', 'L0013455')
-    #StudName.name = 'Anup Jacob'
-    #StudName.roll = 'L0013455'
-    #StudName.stud_details()
     callable(StudName.display_person_details)
 
-    print('\nCalling MODULE class')
-    ModName = MODULE(1, 'DevOps Server Admin')
-    callable(ModName.display_mod_details)
+    print("")
 
-    print('\nCalling ROOM class')
-    RoomDet = ROOM(4209)
-    callable(RoomDet.display_class_details)
+    ModName1 = MODULE(1, 'DevOps Server Admin')
+    RoomNum2 = ROOM(3569)
+    RoomNum1 = ROOM(4209)
+    ModName2 = MODULE(2, 'DevOps Software Engineering')
 
-    print("Thank you for using my application")
+    # Details of Module 1 and class
+    callable(ModName1.display_mod_details)
+    callable(RoomNum1.display_class_details)
+
+    print("")
+
+    # Details of Module 2 and class
+    callable(ModName2.display_mod_details)
+    callable(RoomNum2.display_class_details)
+
+    print("\nThank you for using my application")
 
 

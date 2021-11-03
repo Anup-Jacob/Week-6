@@ -12,20 +12,20 @@
 class STUDENT:
 
     def __init__(self, name, roll):
-        print("Inside Init")
+        #print("Inside Init")
         self._name = name
         self._roll = roll
-        print(self._name,self._roll)
+        # print(self._name,self._roll) -> Used to test the value
 
     @property
     def stud_details(self):
-        print('Inside property')
+        #print('Inside property')
         #print(self._name,self._roll)
         return self._name, self._roll
 
     @stud_details.setter
     def stud_details(self, name, roll):
-        print("Inside stud_details")
+        #print("Inside stud_details")
         self._name = name
         self._roll = roll
 
