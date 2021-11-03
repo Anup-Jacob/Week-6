@@ -20,7 +20,7 @@ class STUDENT:
     @property
     def stud_details(self):
         print('Inside property')
-        print(self._name,self._roll)
+        #print(self._name,self._roll)
         return self._name, self._roll
 
     @stud_details.setter
@@ -31,8 +31,8 @@ class STUDENT:
 
     @property
     def display_person_details(self):
-        print("Name: ".format(self._name))
-        print("Roll Number: ".format(self._roll))
+        print("Name: {}".format(self._name))
+        print("Roll Number: {}".format(self._roll))
 
 
 

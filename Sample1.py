@@ -26,6 +26,6 @@ class PERSON:
 
     @property
     def display_person_details(self):
-        print("Name: ".format(self._name))
+        print("Name: {}".format(self._name))
 
 

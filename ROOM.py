@@ -26,4 +26,4 @@ class ROOM:
 
     @property
     def display_class_details(self):
-        print('Class number: '.format(self._class_num))
+        print("Class number: {}".format(self._class_num))

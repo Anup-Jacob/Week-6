@@ -14,8 +14,8 @@ from Sample1 import PERSON
 if __name__ == '__main__':
 
     Joe = PERSON("Joe Bloggs")
-    Joe.display_person_details()
+    Joe.display_person_details
 
     Jane = PERSON("Jane Doe")
     Jane.name = "Jane Doe"
-    Jane.display_person_details()
+    Jane.display_person_details
